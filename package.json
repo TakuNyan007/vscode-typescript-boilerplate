@@ -1,5 +1,5 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "vscode-typescript-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^18.11.16",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1",
     "typescript": "^4.9.4"
   }
 }
